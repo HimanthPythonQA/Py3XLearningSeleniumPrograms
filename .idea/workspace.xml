@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="629aafa0-76c0-436a-ba62-d2d00027d36c" name="Changes" comment="16th aug,selenium_lab 11 to 15">
-      <change afterPath="$PROJECT_DIR$/19082024/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19082024/test_Lab016.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19082024/test_Lab017.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21082024/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21082024/test_Lab018.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21082024/test_Lab019.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21082024/test_Lab020.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21082024/test_Lab021.py" afterDir="false" />
+    <list default="true" id="629aafa0-76c0-436a-ba62-d2d00027d36c" name="Changes" comment="21st aug,selenium_lab 16 to 21, exceptions">
+      <change afterPath="$PROJECT_DIR$/23082024/Py3xtestdata_ddt.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23082024/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23082024/test_Lab022.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21082024/test_Lab020.py" beforeDir="false" afterPath="$PROJECT_DIR$/21082024/test_Lab020.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,43 +72,20 @@
     "Python tests.Python tests for test_Lab019.test_practice.executor": "Run",
     "Python tests.Python tests for test_Lab020.test_practice.executor": "Run",
     "Python tests.Python tests for test_Lab021.test_exception.executor": "Run",
+    "Python tests.Python tests for test_Lab022.test_Vvwo_login.executor": "Run",
+    "Python tests.Python tests for test_Lab022.test_vwo_login.executor": "Run",
     "Python tests.Python tests for test_sele_Lab001.test_sample.executor": "Run",
     "Python tests.Python tests in test_sele_Lab001.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Lab021.test_exception">
-    <configuration name="Python tests for test_Lab017.test_svgelements" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Py3XLearningSeleniumPrograms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/19082024" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab017.test_svgelements&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_Lab018.test_practice" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Py3XLearningSeleniumPrograms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21082024" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab018.test_practice&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Himanth\PycharmProjects\Py3XLearningSeleniumPrograms\23082024" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_Lab022.test_Vvwo_login">
     <configuration name="Python tests for test_Lab019.test_practice" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Py3XLearningSeleniumPrograms" />
       <option name="ENV_FILES" value="" />
@@ -158,13 +131,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_Lab022.test_Vvwo_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py3XLearningSeleniumPrograms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23082024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Lab022.test_Vvwo_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Lab022.test_vwo_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py3XLearningSeleniumPrograms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23082024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Lab022.test_vwo_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_Lab022.test_Vvwo_login" />
+        <item itemvalue="Python tests.Python tests for test_Lab022.test_vwo_login" />
         <item itemvalue="Python tests.Python tests for test_Lab021.test_exception" />
         <item itemvalue="Python tests.Python tests for test_Lab020.test_practice" />
         <item itemvalue="Python tests.Python tests for test_Lab019.test_practice" />
-        <item itemvalue="Python tests.Python tests for test_Lab018.test_practice" />
-        <item itemvalue="Python tests.Python tests for test_Lab017.test_svgelements" />
       </list>
     </recent_temporary>
   </component>
@@ -208,13 +211,22 @@
       <option name="project" value="LOCAL" />
       <updated>1727662913900</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="21st aug,selenium_lab 16 to 21, exceptions">
+      <option name="closed" value="true" />
+      <created>1728269065035</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728269065035</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="selenium_lab 1 to 6" />
     <MESSAGE value="12th aug,selenium_lab 7 to 9" />
     <MESSAGE value="16th aug,selenium_lab 11 to 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="16th aug,selenium_lab 11 to 15" />
+    <MESSAGE value="21st aug,selenium_lab 16 to 21, exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="21st aug,selenium_lab 16 to 21, exceptions" />
   </component>
 </project>
