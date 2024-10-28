@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="629aafa0-76c0-436a-ba62-d2d00027d36c" name="Changes" comment="25th aug,selenium_lab 23-27 errors,alerts,exceptions try,except">
-      <change afterPath="$PROJECT_DIR$/27082024/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27082024/test_Lab028_actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27082024/test_Lab029_actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27082024/test_Lab030_actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27082024/test_Lab031_actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27082024/test_Lab032_windows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27082024/test_Lab033_actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27082024/test_Lab034.py" afterDir="false" />
+    <list default="true" id="629aafa0-76c0-436a-ba62-d2d00027d36c" name="Changes" comment=" 28-34 Actions,Windows,Iframe, switch from 1 web page to another web page">
+      <change afterPath="$PROJECT_DIR$/29082024/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/29082024/test_Lab035_webtables01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/29082024/test_Lab036.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/21082024/test_Lab020.py" beforeDir="false" afterPath="$PROJECT_DIR$/21082024/test_Lab020.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/23082024/test_Lab022.py" beforeDir="false" afterPath="$PROJECT_DIR$/23082024/test_Lab022.py" afterDir="false" />
@@ -55,72 +50,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_Lab002.test_open_vwologin.executor": "Run",
-    "Python tests.Python tests for test_Lab003.test_open_vwologin.executor": "Run",
-    "Python tests.Python tests for test_Lab004.test_open_vwologin.executor": "Run",
-    "Python tests.Python tests for test_Lab005.test_open_vwologin.executor": "Run",
-    "Python tests.Python tests for test_Lab006.test_open_vwologin.executor": "Run",
-    "Python tests.Python tests for test_Lab007.test_mini_project_1.executor": "Run",
-    "Python tests.Python tests for test_Lab008.test_mini_project_2.executor": "Run",
-    "Python tests.Python tests for test_Lab009.test_mini_project_3.executor": "Run",
-    "Python tests.Python tests for test_Lab010.test_mini_project_4.executor": "Run",
-    "Python tests.Python tests for test_Lab012.test_vwo_login_invalid.executor": "Run",
-    "Python tests.Python tests for test_Lab013.test_katalon.executor": "Run",
-    "Python tests.Python tests for test_Lab013.test_vwo_login_invalid.executor": "Run",
-    "Python tests.Python tests for test_Lab015_select.test_katalon.executor": "Run",
-    "Python tests.Python tests for test_Lab016.test_flipkart.executor": "Run",
-    "Python tests.Python tests for test_Lab016.test_katalon.executor": "Run",
-    "Python tests.Python tests for test_Lab017.test_amchart_maps.executor": "Run",
-    "Python tests.Python tests for test_Lab017.test_svgelements.executor": "Run",
-    "Python tests.Python tests for test_Lab018.test_practice.executor": "Run",
-    "Python tests.Python tests for test_Lab019.test_practice.executor": "Run",
-    "Python tests.Python tests for test_Lab020.test_practice.executor": "Run",
-    "Python tests.Python tests for test_Lab021.test_exception.executor": "Run",
-    "Python tests.Python tests for test_Lab022.test_Vvwo_login.executor": "Run",
-    "Python tests.Python tests for test_Lab022.test_vwo_login.executor": "Run",
-    "Python tests.Python tests for test_Lab023.test_vwo_login_select.executor": "Run",
-    "Python tests.Python tests for test_Lab024.test_vwo_login_select.executor": "Run",
-    "Python tests.Python tests for test_Lab025.test_vwo_login_select.executor": "Run",
-    "Python tests.Python tests for test_Lab026.test_vwo_login_select.executor": "Run",
-    "Python tests.Python tests for test_Lab027.TestAlerts.test_alerts_tc1.executor": "Run",
-    "Python tests.Python tests for test_Lab027.TestAlerts.test_alerts_tc2_confirm_alert.executor": "Run",
-    "Python tests.Python tests for test_Lab027.TestAlerts.test_checkbox.executor": "Run",
-    "Python tests.Python tests for test_Lab028.test_028_actions.executor": "Run",
-    "Python tests.Python tests for test_Lab028.test_checkbox.executor": "Run",
-    "Python tests.Python tests for test_Lab029.test_029.executor": "Run",
-    "Python tests.Python tests for test_Lab030.test_030_actions.executor": "Run",
-    "Python tests.Python tests for test_Lab031.test_031_actions.executor": "Run",
-    "Python tests.Python tests for test_Lab032_windows.test_032_windows.executor": "Run",
-    "Python tests.Python tests for test_Lab033_actions.test_032_actions.executor": "Run",
-    "Python tests.Python tests for test_sele_Lab001.test_sample.executor": "Run",
-    "Python tests.Python tests in test_sele_Lab001.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_Lab002.test_open_vwologin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab003.test_open_vwologin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab004.test_open_vwologin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab005.test_open_vwologin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab006.test_open_vwologin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab007.test_mini_project_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab008.test_mini_project_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab009.test_mini_project_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab010.test_mini_project_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab012.test_vwo_login_invalid.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab013.test_katalon.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab013.test_vwo_login_invalid.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab015_select.test_katalon.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab016.test_flipkart.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab016.test_katalon.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab017.test_amchart_maps.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab017.test_svgelements.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab018.test_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab019.test_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab020.test_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab021.test_exception.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab022.test_Vvwo_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab022.test_vwo_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab023.test_vwo_login_select.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab024.test_vwo_login_select.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab025.test_vwo_login_select.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab026.test_vwo_login_select.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab027.TestAlerts.test_alerts_tc1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab027.TestAlerts.test_alerts_tc2_confirm_alert.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab027.TestAlerts.test_checkbox.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab028.test_028_actions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab028.test_checkbox.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab029.test_029.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab030.test_030_actions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab031.test_031_actions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab032_windows.test_032_windows.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab033_actions.test_032_actions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Lab035_webtables01.test_webtables.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_sele_Lab001.test_sample.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_sele_Lab001.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Himanth\PycharmProjects\Py3XLearningSeleniumPrograms\23082024" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Lab033_actions.test_032_actions">
-    <configuration name="Python tests for test_Lab029.test_029" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Py3XLearningSeleniumPrograms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27082024" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab029.test_029&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_Lab035_webtables01.test_webtables">
     <configuration name="Python tests for test_Lab030.test_030_actions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Py3XLearningSeleniumPrograms" />
       <option name="ENV_FILES" value="" />
@@ -181,13 +162,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_Lab035_webtables01.test_webtables" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py3XLearningSeleniumPrograms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/29082024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Lab035_webtables01.test_webtables&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_Lab035_webtables01.test_webtables" />
         <item itemvalue="Python tests.Python tests for test_Lab033_actions.test_032_actions" />
         <item itemvalue="Python tests.Python tests for test_Lab032_windows.test_032_windows" />
         <item itemvalue="Python tests.Python tests for test_Lab031.test_031_actions" />
         <item itemvalue="Python tests.Python tests for test_Lab030.test_030_actions" />
-        <item itemvalue="Python tests.Python tests for test_Lab029.test_029" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729102472372</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" 28-34 Actions,Windows,Iframe, switch from 1 web page to another web page">
+      <option name="closed" value="true" />
+      <created>1729653582496</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729653582496</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,6 +269,7 @@
     <MESSAGE value="21st aug,selenium_lab 16 to 21, exceptions" />
     <MESSAGE value="23rd aug,selenium_lab 22 DDT data driven testing (from excel)" />
     <MESSAGE value="25th aug,selenium_lab 23-27 errors,alerts,exceptions try,except" />
-    <option name="LAST_COMMIT_MESSAGE" value="25th aug,selenium_lab 23-27 errors,alerts,exceptions try,except" />
+    <MESSAGE value=" 28-34 Actions,Windows,Iframe, switch from 1 web page to another web page" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 28-34 Actions,Windows,Iframe, switch from 1 web page to another web page" />
   </component>
 </project>
