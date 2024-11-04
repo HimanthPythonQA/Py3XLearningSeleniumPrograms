@@ -10,6 +10,7 @@ from allure_commons.types import AttachmentType
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.relative_locator import locate_with
+from selenium.common.exceptions import(ElementNotVisibleException,ElementNotSelectableException)
 from selenium.common.exceptions import *
 
 def test_practice():

@@ -1,5 +1,4 @@
 import time
-
 import openpyxl
 from selenium import webdriver
 from selenium.webdriver.common.by import By
